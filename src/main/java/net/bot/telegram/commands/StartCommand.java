@@ -1,4 +1,4 @@
-package net.dlysak.telegram.commands;
+package net.bot.telegram.commands;
 
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;

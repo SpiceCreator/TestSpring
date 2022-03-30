@@ -1,4 +1,4 @@
-package net.dlysak.telegram;
+package net.bot.telegram;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package net.dlysak.telegram;
+package net.bot.telegram;
 
 public class BotConstants {
   public static final String botName = "VeryHelpfullBot";

@@ -1,6 +1,6 @@
-package net.dlysak.telegram;
+package net.bot.telegram;
 
-import net.dlysak.telegram.commands.StartCommand;
+import net.bot.telegram.commands.StartCommand;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
@@ -11,11 +11,6 @@ public class BotConfig extends TelegramLongPollingCommandBot {
 
   public BotConfig() {
     register(new StartCommand());
-  }
-
-  @Bean
-  public BotConfig getBotConfig() {
-    return new BotConfig();
   }
 
   @Override
