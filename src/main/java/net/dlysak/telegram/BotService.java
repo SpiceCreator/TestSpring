@@ -13,6 +13,7 @@ public class BotService {
   private BotConfig botConfig;
 
   public BotService() {
+//    BotConfig botConfig = new BotConfig();
     try {
       TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
       telegramBotsApi.registerBot(botConfig);
